@@ -4,7 +4,7 @@
 
 ### 注意
 1.需修改./db/dbConfig.js中你的DB信息<br />
-2.启动例如：env MYSQL_PASSWD=xxxx node index.js，当然，你也可以修改或写入你的package.json
+2.启动例如：env MYSQL_PASSWD=xxxx node index.js，当然，你也可以创建修改.env或写入你的package.json
 
 
 ### 后续
