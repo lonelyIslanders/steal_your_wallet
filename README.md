@@ -1,14 +1,15 @@
 ### 功能
-1.生成钱包，查询ETH主网ETH和USDT余额、BSC链BNB余额和USDT余额<br />
-2.写入数据库有余额的钱包私钥
+1.生成钱包，查询ETH主网ETH和USDT余额、BSC链BNB和USDT余额<br />
+2.写入数据库有余额的钱包私钥<br />
+3.尝试转出钱包所有余额到指定地址<br />
 
 ### 注意
-1.需修改./db/dbConfig.js中你的DB信息<br />
+1.需修改./db/dbConfig.js中你的DB信息，./config/config.js中collectAddress<br />
 2.启动例如：env MYSQL_PASSWD=xxxx node index.js，当然，你也可以创建修改.env或写入你的package.json
 
-
 ### 后续
-后续功能待开发，transfer to your binance～
+1.后续功能待开发，transfer to your binance～<br />
+2.待开发支持查询并转出其它币种<br />
 
 ## 捐助 donate 寄付する Взносы Spende
 
