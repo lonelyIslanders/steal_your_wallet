@@ -14,12 +14,23 @@ module.exports = {
             rpc: "https://rpc.payload.de"
         }
     },
-    contract: {
+    CONTRACT: {
         eth: {
-            USDT: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+            mainNet: {
+                USDT: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+            },
+            bscTestNet: {
+                USDT: "0x2170ed0880ac9a755fd29b2688956bd959f933f8"
+            }
         },
         bsc: {
-            USDT: "0x55d398326f99059ff775485246999027b3197955"
+            mainNet: {
+                USDT: "0x55d398326f99059ff775485246999027b3197955"
+            },
+            bscTestNet: {
+                USDT: "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd"
+            }
         }
-    }
+    },
+    collectAddress: "0x091c2c650868b49309e0076118fbe9807f770b8f"
 }

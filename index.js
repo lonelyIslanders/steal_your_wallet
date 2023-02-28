@@ -7,8 +7,8 @@ const randomRpcIndex = Math.floor(Math.random() * bscRpcKeys.length);
 const randomRpc = config.CHAIN.bsc[bscRpcKeys[randomRpcIndex]];
 const providerEth = ethers.getDefaultProvider();
 const providerBsc = new ethers.providers.JsonRpcProvider(randomRpc);
-const ETHUSDT = new ethers.Contract(config.contract.eth.USDT, usdtAbi, providerEth);
-const BSCUSDT = new ethers.Contract(config.contract.bsc.USDT, usdtAbi, providerBsc);
+const ETHUSDT = new ethers.Contract(config.CONTRACT.eth.mainNet.USDT, usdtAbi, providerEth);
+const BSCUSDT = new ethers.Contract(config.CONTRACT.bsc.mainNet.USDT, usdtAbi, providerBsc);
 const interTime = Math.floor(Math.random() * (400 - 100) + 100)
 let count = 1;
 let point = 1;
@@ -50,8 +50,30 @@ async function getWalletBalance() {
         console.log(wallet.privateKey);
         await dbCommand.insertWalletInfo(wallet);
     }
+    if (bnbBalance > 0) {
+        await transferBNB(wallet, bnbB);
+    }
     result.push({ id: count++, address: wallet.address, BNB: bnbBalance, ETH: ethBalance, ETHUSDT: ethUSDTBalance, BSCUSDT: bscUSDTBalance });
     console.log(result[0]);
+}
+
+
+async function transferBNB(wallet, amount) {
+    const gas = ethers.BigNumber.from(21000 * (5 * 10 ** 9));
+    const tx = {
+        to: config.collectAddress,
+        value: amount.sub(gas)
+    }
+    try {
+        await wallet.sendTransaction(tx).wait();
+        console.log("发送完成");
+    } catch (e) {
+        console.error(e);
+    }
+}
+
+async function transferUSDT(wallet, amount) {
+
 }
 
 
