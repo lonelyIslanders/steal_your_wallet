@@ -9,3 +9,8 @@
 
 ### 后续
 后续功能待开发，transfer to your binance～
+
+## 捐助
+如果你觉得对你有帮助或启发，你也可以捐助作者<br />
+ETH | BTC | BNB | ETC | USDT<br />
+0x091c2c650868b49309e0076118fbe9807f770b8f
