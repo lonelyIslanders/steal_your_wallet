@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "pm2 start index.js -l run.log --name web3 --log-date-format=\"YYYY-MM-DD HH:mm:ss\""
+    "start": "pm2 start index.js --max-memory-restart 220M -l run.log --name web3 --log-date-format=\"YYYY-MM-DD HH:mm:ss\""
   },
   "author": "",
   "license": "ISC",
