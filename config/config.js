@@ -16,19 +16,20 @@ module.exports = {
     },
     CONTRACT: {
         eth: {
-            mainNet: {
+            mainNet: {//eth主网USDT合约地址
                 USDT: "0xdac17f958d2ee523a2206206994597c13d831ec7"
             },
-            bscTestNet: {
-                USDT: "0x2170ed0880ac9a755fd29b2688956bd959f933f8"
+            testNet: {
+                USDT: ""
             }
         },
         bsc: {
-            mainNet: {
+            mainNet: {//bsc主网USDT合约地址
                 USDT: "0x55d398326f99059ff775485246999027b3197955"
             },
-            bscTestNet: {
-                USDT: "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd"
+            testNet: {//bsc测试网USDT合约地址
+                USDT: "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+                ETH: "0x2170ed0880ac9a755fd29b2688956bd959f933f8"
             }
         }
     },
