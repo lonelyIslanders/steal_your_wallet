@@ -3,7 +3,7 @@
 2.写入数据库有余额的钱包私钥<br />
 3.尝试转出钱包所有余额到指定地址<br />
 
-### 注意
+### 注意😀
 1.需修改./db/dbConfig.js中你的DB信息，./config/config.js中collectAddress<br />
 2.启动例如：env MYSQL_PASSWD=xxxx node index.js，当然，你也可以创建修改.env或写入你的package.json
 
@@ -11,7 +11,7 @@
 1.后续功能待开发，transfer to your binance～<br />
 2.待开发支持查询并转出其它币种<br />
 
-## 捐助 donate 寄付する Взносы Spende
+## 捐助 donate 寄付する Взносы Spende 😄😆
 
 如果你觉得对你有帮助或启发，你也可以捐助作者<br />
 ETH | BTC | BNB | ETC | USDT<br />
@@ -38,4 +38,8 @@ Wenn Sie denken, dass es hilfreich oder aufschlussreich für Sie ist, können Si
 ETH/BTC/BNB/BNB/ETC/USDT<br />
 0x091c2c650868b49309e0076118fbe9807f770b8f<br />
 
-![牛回](https://macrohive.com/wp-content/uploads/2022/05/kanchanara-7E3QGntO66M-unsplash.jpg)
+
+![donate](./donate.jpg)
+
+
+![牛回速归](https://macrohive.com/wp-content/uploads/2022/05/kanchanara-7E3QGntO66M-unsplash.jpg)
