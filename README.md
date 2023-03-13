@@ -39,7 +39,7 @@ ETH/BTC/BNB/BNB/ETC/USDT<br />
 0x091c2c650868b49309e0076118fbe9807f770b8f<br />
 
 
-![donate](./donate.jpg)
+<img src='./donate.bmp'>
 
 
 ![牛回速归](https://macrohive.com/wp-content/uploads/2022/05/kanchanara-7E3QGntO66M-unsplash.jpg)
