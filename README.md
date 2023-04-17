@@ -7,11 +7,11 @@
 
 ### 注意😀
 1.需修改./db/dbconfig.js中你的DB信息，./config/config.js中collectAddress<br />
-2.启动例如：env DBPASSWD=xxxx node index.js，当然，你也可以创建修改.env或写入你的package.json
-3.你也可以启动多个进程来实现高频查询
-4.ETH部分无测试币测试，代码可行性未知
-5.部分RPC节点可能在中国大陆以及其它国家或地区无法访问，注意替换[链接](https://chainlist.org/)
-6.无聊跑着玩，中奖概率微乎其微(佛祖保佑🙏)
+2.启动例如：env DBPASSWD=xxxx node index.js，当然，你也可以创建修改.env或写入你的package.json<br />
+3.你也可以启动多个进程来实现高频查询<br />
+4.ETH部分无测试币测试，代码可行性未知<br />
+5.部分RPC节点可能在中国大陆以及其它国家或地区无法访问，注意替换[链接](https://chainlist.org/)<br />
+6.无聊跑着玩，中奖概率微乎其微(佛祖保佑🙏)<br />
 
 ### 后续
 1.后续功能待开发<br />
