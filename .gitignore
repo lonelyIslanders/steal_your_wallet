@@ -1,0 +1,6 @@
+node_modules/
+test.js
+wallet.txt
+.env
+wallet.txt
+run.log

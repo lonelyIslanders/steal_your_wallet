@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "env DBPASSWD=dbpasswd pm2 start index.js --max-memory-restart 200M -l run.log --name guessWallet --log-date-format=\"YYYY-MM-DD HH:mm:ss\""
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "mysql": "^2.18.1"
+  }
+}
